@@ -963,6 +963,20 @@ button{cursor:pointer}
 .question-card.conditional-followup{border-right:4px solid #d10020;background:linear-gradient(180deg,#fff8f9,#fff);padding-right:14px}.conditional-note{margin:8px 38px 0 0;padding:8px 10px;border-radius:11px;background:#fff0f2;color:#a91630;font-size:.64rem;line-height:1.8}.question-card.equipment-fault-yes{border-color:#efc4cc;background:#fff8f9}.question-card.equipment-fault-yes .question-no{background:#fff0f2;color:#b0001d;border-color:#edc8cf}@media(max-width:820px){.conditional-note{margin:8px 0 0}.question-card.conditional-followup{padding-right:10px}}
 </style>
 </style>
+
+<style id="v37-areahead-week-ops-styles">
+/* ===== V37 AREA HEAD: TODAY-FIRST + READ-ONLY WEEK VIEW ===== */
+.today-mission{position:relative;overflow:hidden;margin-bottom:18px;padding:24px;border-radius:28px;color:#fff;background:linear-gradient(135deg,#8f0017 0%,#ca0023 52%,#e42143 100%);box-shadow:0 22px 55px rgba(167,0,28,.22)}
+.today-mission:before{content:"";position:absolute;width:280px;height:280px;border-radius:50%;left:-90px;top:-150px;background:rgba(255,255,255,.10)}
+.today-mission:after{content:"";position:absolute;width:190px;height:190px;border-radius:50%;right:-70px;bottom:-120px;background:rgba(255,255,255,.07)}
+.today-mission>*{position:relative;z-index:1}.today-mission.unavailable{background:linear-gradient(135deg,#735419,#a67818,#c99a39)}
+.today-mission-top{display:flex;align-items:flex-start;justify-content:space-between;gap:18px}.today-kicker,.week-kicker,.today-panel-kicker{display:block;font-size:.6rem;font-weight:900;letter-spacing:.12em;opacity:.76}.today-mission h2{margin:5px 0 0;font-size:1.62rem}.today-mission p{margin:7px 0 0;color:rgba(255,255,255,.78);font-size:.78rem;line-height:1.9}.today-date-wrap{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.18);padding:10px 13px;border-radius:999px;backdrop-filter:blur(8px);white-space:nowrap}.today-live-dot{width:8px;height:8px;border-radius:50%;background:#fff;box-shadow:0 0 0 5px rgba(255,255,255,.12)}.today-date{font-size:.72rem;font-weight:900}.today-mission-grid{display:grid;grid-template-columns:120px 120px 120px minmax(260px,1fr);gap:10px;margin-top:20px}.today-metric,.today-next{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.16);border-radius:17px;padding:13px 14px;backdrop-filter:blur(8px)}.today-metric strong{display:block;font-size:1.42rem}.today-metric span,.today-next span,.today-next small{display:block;color:rgba(255,255,255,.72);font-size:.61rem;margin-top:4px}.today-next strong{display:block;font-size:.88rem;margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.today-next small{line-height:1.7}.today-progress{margin-top:13px;background:rgba(75,0,13,.16);border-radius:16px;padding:11px 13px}.today-progress>div:first-child{display:flex;justify-content:space-between;gap:12px;font-size:.62rem;color:rgba(255,255,255,.82)}.today-progress>div:first-child strong{color:#fff}.today-progress-track{height:7px;background:rgba(255,255,255,.18);border-radius:999px;overflow:hidden;margin-top:8px}.today-progress-track i{display:block;height:100%;width:0;background:#fff;border-radius:999px;transition:width .3s ease}.today-mission-actions{display:flex;justify-content:flex-start;margin-top:12px}.today-week-btn{border:1px solid rgba(255,255,255,.26);background:rgba(255,255,255,.12);color:#fff;border-radius:12px;padding:9px 12px;font-weight:900;font-size:.66rem}
+.today-route-panel{border:1px solid rgba(203,0,35,.28);box-shadow:0 18px 48px rgba(168,0,28,.10)}.today-route-head{background:linear-gradient(180deg,#fff8fa 0%,#fff 100%)}.today-panel-kicker{color:#b0001d;opacity:1;margin-bottom:3px}.today-route-badge{background:#fff0f3;border-color:#f3ccd4;color:#a9001b}
+.week-plan{margin-top:20px;background:#fff;border:1px solid var(--line);border-radius:25px;box-shadow:var(--shadow);overflow:hidden}.week-plan-head{padding:20px 22px;border-bottom:1px solid var(--line);display:flex;align-items:flex-start;justify-content:space-between;gap:16px}.week-plan-head h3{margin:4px 0 0;font-size:1.08rem}.week-plan-head p{margin:6px 0 0;color:var(--muted);font-size:.72rem;line-height:1.9}.week-kicker{color:#8c2940;opacity:1}.week-range{background:#f5f6f9;border:1px solid var(--line);border-radius:999px;padding:8px 11px;color:#5e6675;font-size:.64rem;font-weight:900;white-space:nowrap}.week-strip{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;padding:15px 16px 17px}.week-day-card{min-width:0;text-align:right;border:1px solid #e5e8ee;background:#fff;border-radius:17px;padding:12px 11px;color:#313846;transition:.16s;position:relative}.week-day-card:hover{transform:translateY(-1px);border-color:#cfd4dd}.week-day-card.selected{box-shadow:0 0 0 2px rgba(49,94,251,.07)}.week-day-card.today{color:#fff;border-color:#a8001b;background:linear-gradient(145deg,#9f0019,#d30024);box-shadow:0 12px 26px rgba(176,0,29,.18)}.week-day-card.today.selected{box-shadow:0 0 0 3px rgba(203,0,35,.12),0 12px 26px rgba(176,0,29,.18)}.week-day-card.past{background:#f8f9fb;color:#666f7e}.week-day-card.future{background:#fff}.week-day-card.unavailable:not(.today){background:#fff8e9;border-color:#efdfb9;color:#7f5b0d}.week-day-top{display:flex;align-items:center;justify-content:space-between;gap:6px}.week-day-top strong{font-size:.72rem}.week-day-top span{font-size:.56rem;opacity:.72}.week-day-state{display:inline-flex;margin-top:10px;padding:4px 7px;border-radius:999px;background:#f0f2f5;color:#717989;font-size:.53rem;font-weight:900}.week-day-card.today .week-day-state{background:rgba(255,255,255,.16);color:#fff}.week-day-card.future .week-day-state{background:#f2f4f8;color:#68717e}.week-day-main{margin-top:9px;font-size:.83rem;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.week-day-sub{margin-top:4px;font-size:.55rem;line-height:1.7;opacity:.75;min-height:19px}.week-readonly-preview{margin:0 16px 17px;border:1px solid #dfe4ec;border-radius:19px;overflow:hidden;background:#fbfcfe}.week-preview-head{padding:14px 16px;border-bottom:1px solid #e6e9ef;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;background:#fff}.week-preview-head>div>span{display:inline-flex;padding:4px 8px;border-radius:999px;background:#eef2f7;color:#5d6674;font-size:.55rem;font-weight:900}.week-preview-head h4{margin:7px 0 0;font-size:.9rem}.week-preview-head p{margin:4px 0 0;color:var(--muted);font-size:.62rem}.week-preview-close{width:32px;height:32px;border:1px solid var(--line);background:#fff;border-radius:10px;font-size:1rem}.week-preview-list{padding:10px 12px;display:grid;gap:7px}.week-preview-item{display:grid;grid-template-columns:34px minmax(0,1fr) auto;align-items:center;gap:10px;background:#fff;border:1px solid #e7eaf0;border-radius:13px;padding:9px 10px}.week-preview-seq{width:31px;height:31px;border-radius:9px;background:#eef1f5;color:#5d6573;display:grid;place-items:center;font-size:.65rem;font-weight:900}.week-preview-info strong{display:block;font-size:.72rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.week-preview-info span{display:block;color:#858c99;font-size:.57rem;margin-top:3px}.week-preview-status{padding:5px 7px;border-radius:999px;background:#f0f2f5;color:#68717d;font-size:.54rem;font-weight:900;white-space:nowrap}.week-preview-status.completed{background:#eaf8f1;color:#14774f}.week-preview-status.in_progress{background:#eaf8f1;color:#14774f}.week-preview-status.waiting_approval,.week-preview-status.waiting_correction{background:#fff5dc;color:#8f6600}.week-status-card,.week-empty,.week-unplanned-note{padding:16px;border:1px dashed #d8dde5;border-radius:13px;background:#fff;text-align:center;color:#727b88;font-size:.65rem}.week-status-card strong{display:block;color:#60480d;font-size:.78rem}.week-status-card span{display:block;margin-top:5px}.week-unplanned-note{background:#f4f8ff;border-style:solid;border-color:#dce7f8;color:#456183;text-align:right}.today-unavailable-empty{background:#fff9eb;border-color:#ead9ae}
+@media(max-width:1120px){.today-mission-grid{grid-template-columns:repeat(3,1fr)}.today-next{grid-column:1/-1}.week-strip{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:820px){.today-mission{padding:17px 15px;border-radius:21px}.today-mission-top{display:block}.today-date-wrap{display:inline-flex;margin-top:12px}.today-mission h2{font-size:1.3rem}.today-mission-grid{grid-template-columns:repeat(3,1fr);gap:7px;margin-top:15px}.today-metric,.today-next{padding:10px;border-radius:14px}.today-metric strong{font-size:1.18rem}.today-next{grid-column:1/-1}.today-progress{padding:9px 10px}.today-mission-actions .today-week-btn{width:100%}.week-plan{border-radius:19px}.week-plan-head{display:block;padding:16px}.week-range{display:inline-block;margin-top:10px}.week-strip{display:flex;overflow:auto;gap:7px;padding:12px}.week-day-card{min-width:132px;flex:0 0 132px}.week-readonly-preview{margin:0 10px 12px}.week-preview-item{grid-template-columns:31px minmax(0,1fr)}.week-preview-status{grid-column:2}.today-route-panel{box-shadow:0 12px 30px rgba(168,0,28,.07)}}
+</style>
+
 </head>
 
 <body>
@@ -975,7 +989,8 @@ button{cursor:pointer}
     <div class="brand"><strong>دیلی مارکت</strong><span>چک لیست · بازدید فروشگاهی</span></div>
     <div class="user-mini"><div class="avatar" id="sideAvatar">ر</div><div><strong id="sideName">رئیس ناحیه</strong><span id="sideRegion">پنل بازدید</span></div></div>
     <nav class="nav">
-      <button class="nav-btn active"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/><path d="m7 10 2 2 4-4"/></svg>مسیر و Route امروز</button>
+      <button class="nav-btn active" onclick="scrollToToday()"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/><path d="m7 10 2 2 4-4"/></svg>عملیات امروز</button>
+      <button class="nav-btn" onclick="scrollToWeekPlan()"><svg viewBox="0 0 24 24"><path d="M3 6h18M7 3v6M17 3v6M5 10h14v10H5z"/></svg>برنامه هفته من</button>
       <button class="nav-btn" onclick="openUnplannedModal()"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>بازدید خارج برنامه</button>
       <button class="nav-btn hidden" id="selfRouteNav" onclick="location.href='areahead-route.html'"><svg viewBox="0 0 24 24"><path d="M6 3v18M18 3v18M6 7h7a3 3 0 0 1 0 6H9a3 3 0 0 0-3 3"/></svg>برنامه‌ریزی مسیر من</button>
       <button class="nav-btn" onclick="location.href='alerts.html'"><svg viewBox="0 0 24 24"><path d="M12 3 2.7 20h18.6z"/><path d="M12 9v5M12 17h.01"/></svg>هشدارهای من</button>
@@ -985,7 +1000,7 @@ button{cursor:pointer}
   </aside>
 
   <main class="main">
-    <div class="mobile-head"><div class="mobile-brand">دیلی مارکت<small>مسیر و Route امروز</small></div><div class="mobile-user" id="mobileAvatar">ر</div></div>
+    <div class="mobile-head"><div class="mobile-brand">دیلی مارکت<small>مرکز عملیات امروز</small></div><div class="mobile-user" id="mobileAvatar">ر</div></div>
 
     <header class="topbar">
       <div><h1>مسیر بازدید فروشگاه‌ها</h1><p id="topUserText">Route امروز رئیس ناحیه</p></div>
@@ -993,9 +1008,23 @@ button{cursor:pointer}
     </header>
 
     <div class="content">
-      <section class="hero">
-        <div><h2>Route امروز شما</h2><p>مسیر امروز مستقیماً نمایش داده می‌شود؛ برای شروع بازدید، حضور شما در محدوده فروشگاه بررسی می‌شود.</p></div>
-        <span class="date-pill" id="todayLabel">—</span>
+      <section class="today-mission" id="todayMission">
+        <div class="today-mission-top">
+          <div>
+            <span class="today-kicker">مرکز عملیات امروز</span>
+            <h2>برنامه امروز شما</h2>
+            <p id="todayMissionText">فقط بازدیدهای امروز قابل اجرا هستند؛ برنامه سایر روزها صرفاً برای مشاهده نمایش داده می‌شود.</p>
+          </div>
+          <div class="today-date-wrap"><span class="today-live-dot"></span><span class="today-date" id="todayLabel">—</span></div>
+        </div>
+        <div class="today-mission-grid">
+          <div class="today-metric"><strong id="todayPlannedCount">0</strong><span>بازدید امروز</span></div>
+          <div class="today-metric done"><strong id="todayDoneCount">0</strong><span>تکمیل‌شده</span></div>
+          <div class="today-metric remaining"><strong id="todayRemainingCount">0</strong><span>باقی‌مانده</span></div>
+          <div class="today-next"><span>گام بعدی</span><strong id="todayNextStore">—</strong><small id="todayNextMeta">برنامه امروز در حال آماده‌سازی است.</small></div>
+        </div>
+        <div class="today-progress"><div><span>پیشرفت برنامه امروز</span><strong id="todayProgressText">0 از 0</strong></div><div class="today-progress-track"><i id="todayProgressBar"></i></div></div>
+        <div class="today-mission-actions"><button class="today-week-btn" onclick="scrollToWeekPlan()">مشاهده برنامه کامل هفته</button></div>
       </section>
 
 
@@ -1013,8 +1042,8 @@ button{cursor:pointer}
       <div class="route-delegated-banner" id="routeDelegatedBanner"><span><strong>مسیر‌بندی این ناحیه به شما واگذار شده است.</strong><br>برنامه هفتگی را خودتان می‌چینید؛ سیستم اجازه نمی‌دهد فروشگاه‌های سررسید ۱۴ روزه از برنامه جا بمانند.</span><button onclick="location.href='areahead-route.html'">برنامه‌ریزی مسیر من</button></div>
 
       <section class="grid">
-        <div class="panel">
-          <div class="panel-head"><div><h3>مسیر و Route امروز</h3><p id="routeMeta">ترتیب تعیین‌شده توسط مدیر منطقه</p></div><span class="date-pill" id="routeBadge">—</span></div>
+        <div class="panel today-route-panel" id="todayRoutePanel">
+          <div class="panel-head today-route-head"><div><span class="today-panel-kicker">TODAY</span><h3>مسیر و Route امروز</h3><p id="routeMeta">ترتیب تعیین‌شده توسط مدیر منطقه</p></div><span class="date-pill today-route-badge" id="routeBadge">—</span></div>
           <div class="panel-body"><div class="route-list" id="routeList"></div></div>
         </div>
 
@@ -1023,10 +1052,22 @@ button{cursor:pointer}
           <div class="side-card"><h4>قواعد حضور</h4><div class="rule"><span class="rule-dot"></span><span>شعاع تأیید خودکار حضور: <strong id="radiusRule">300 متر</strong></span></div><div class="rule"><span class="rule-dot"></span><span>چند نمونه GPS گرفته می‌شود و دقیق‌ترین نمونه برای تصمیم استفاده می‌شود.</span></div><div class="rule"><span class="rule-dot"></span><span>اگر دقت GPS بیشتر از <strong>200 متر</strong> باشد یا موقعیت دریافت نشود، ادامه فقط با تأیید مدیر منطقه ممکن است.</span></div></div>
         </aside>
       </section>
+
+      <section class="week-plan" id="weekPlanSection">
+        <div class="week-plan-head">
+          <div><span class="week-kicker">WEEK VIEW</span><h3>برنامه این هفته من</h3><p>برنامه شنبه تا جمعه را یکجا ببین. فقط «امروز» عملیاتی است؛ روزهای گذشته و آینده فقط قابل مشاهده‌اند.</p></div>
+          <span class="week-range" id="weekRangeLabel">—</span>
+        </div>
+        <div class="week-strip" id="weekStrip"></div>
+        <div class="week-readonly-preview hidden" id="weekPreview">
+          <div class="week-preview-head"><div><span id="weekPreviewMode">فقط مشاهده</span><h4 id="weekPreviewTitle">—</h4><p id="weekPreviewSub">—</p></div><button class="week-preview-close" onclick="closeWeekPreview()">×</button></div>
+          <div class="week-preview-list" id="weekPreviewList"></div>
+        </div>
+      </section>
     </div>
 
     <nav class="mobile-bottom">
-      <button class="mobile-nav active"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>Route</button>
+      <button class="mobile-nav active"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>امروز</button>
       <button class="mobile-nav" onclick="openUnplannedModal()"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>خارج برنامه</button>
       <button class="mobile-nav" onclick="location.href='alerts.html'"><svg viewBox="0 0 24 24"><path d="M12 3 2.7 20h18.6z"/></svg>هشدار</button>
       <button class="mobile-nav hidden" id="selfRouteMobileNav" onclick="location.href='areahead-route.html'"><svg viewBox="0 0 24 24"><path d="M6 3v18M18 3v18M6 7h7a3 3 0 0 1 0 6H9a3 3 0 0 0-3 3"/></svg>مسیر من</button>
@@ -1190,7 +1231,9 @@ const state={
   cannotVisitTarget:null,
   cannotVisitReason:'',
   checklistSaving:false,
-  checklistSaveTimer:null
+  checklistSaveTimer:null,
+  weekDays:[],
+  selectedWeekIso:''
 };
 
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
@@ -1207,6 +1250,9 @@ function applyAreaHeadBootstrap(res){
   state.route=res.route||{items:[]};
   state.stores=res.allStores||[];
   state.settings=res.settings||state.settings;
+  state.weekDays=res.weekOverview?.days||[];
+  const weekHasSelection=state.weekDays.some(d=>d.dateIso===state.selectedWeekIso);
+  state.selectedWeekIso=weekHasSelection?state.selectedWeekIso:(res.serverDateIso||'');
   if(res.user)state.user=res.user;
   renderAll();
   schedulePendingPoll();
@@ -1269,7 +1315,124 @@ function renderAll(){
   document.getElementById('selfRouteNav').classList.toggle('hidden',!canSelf);
   document.getElementById('selfRouteMobileNav').classList.toggle('hidden',!canSelf);
   document.getElementById('routeDelegatedBanner').classList.toggle('show',canSelf);
-  renderActive();renderRoute();
+  renderTodayMission();
+  renderActive();
+  renderRoute();
+  renderWeekPlan();
+}
+
+function faDateShort(iso){
+  try{return new Intl.DateTimeFormat('fa-IR-u-ca-persian',{month:'short',day:'numeric'}).format(new Date(iso+'T12:00:00'));}catch(_){return iso;}
+}
+function faWeekday(iso){
+  try{return new Intl.DateTimeFormat('fa-IR-u-ca-persian',{weekday:'long'}).format(new Date(iso+'T12:00:00'));}catch(_){return iso;}
+}
+function dayStatusLabelClient(day){
+  const t=String(day?.dayStatus?.eventType||day?.leave?.eventType||'').toUpperCase();
+  return ({LEAVE:'مرخصی',INVENTORY:'انبارگردانی',OPENING:'افتتاحیه'})[t]||'';
+}
+function renderTodayMission(){
+  const items=state.route?.items||[];
+  const planned=items.length;
+  const completed=items.filter(x=>x.uiStatus==='COMPLETED').length;
+  const remaining=Math.max(0,planned-completed);
+  const unavailable=!!state.data?.onUnavailable;
+  const mission=document.getElementById('todayMission');
+  if(mission)mission.classList.toggle('unavailable',unavailable);
+  document.getElementById('todayPlannedCount').textContent=unavailable?'—':planned;
+  document.getElementById('todayDoneCount').textContent=unavailable?'—':completed;
+  document.getElementById('todayRemainingCount').textContent=unavailable?'—':remaining;
+  document.getElementById('todayProgressText').textContent=unavailable?'روز غیرعملیاتی':`${completed} از ${planned}`;
+  document.getElementById('todayProgressBar').style.width=unavailable?'100%':(planned?Math.round(completed/planned*100):0)+'%';
+
+  const next=items.find(x=>x.uiStatus==='IN_PROGRESS')||items.find(x=>x.uiStatus==='NOT_STARTED')||items.find(x=>x.uiStatus==='WAITING_APPROVAL'||x.uiStatus==='WAITING_CORRECTION');
+  const nextStore=document.getElementById('todayNextStore'),nextMeta=document.getElementById('todayNextMeta'),text=document.getElementById('todayMissionText');
+  if(unavailable){
+    const label=dayStatusLabelClient({dayStatus:state.data.dayStatus})||'وضعیت غیرعملیاتی';
+    nextStore.textContent=label;
+    nextMeta.textContent=state.data.dayStatus?.relatedStoreName||state.data.dayStatus?.relatedStoreCode||'امروز Route عملیاتی ندارد.';
+    text.textContent=`برای امروز «${label}» ثبت شده است؛ شروع بازدید غیرفعال است.`;
+  }else if(next){
+    nextStore.textContent=next.storeName||next.storeCode;
+    nextMeta.textContent=next.uiStatus==='IN_PROGRESS'?'بازدید در حال انجام است.':next.uiStatus==='WAITING_APPROVAL'?'در انتظار تأیید GPS مدیر منطقه':next.uiStatus==='WAITING_CORRECTION'?'در انتظار اصلاح لوکیشن':'فروشگاه بعدی در Route امروز';
+    text.textContent='فقط بازدیدهای امروز قابل اجرا هستند؛ برنامه سایر روزها صرفاً برای مشاهده نمایش داده می‌شود.';
+  }else if(planned&&completed===planned){
+    nextStore.textContent='برنامه امروز تکمیل شد ✓';
+    nextMeta.textContent='همه بازدیدهای برنامه‌ریزی‌شده امروز انجام شده‌اند.';
+    text.textContent='تمام بازدیدهای Route امروز تکمیل شده‌اند.';
+  }else{
+    nextStore.textContent='Route امروز خالی است';
+    nextMeta.textContent='در صورت نیاز می‌توانی بازدید خارج از برنامه ثبت کنی.';
+    text.textContent='برای امروز Route برنامه‌ریزی‌شده‌ای ثبت نشده است.';
+  }
+}
+
+function scrollToToday(){document.getElementById('todayMission')?.scrollIntoView({behavior:'smooth',block:'start'});}
+function scrollToWeekPlan(){document.getElementById('weekPlanSection')?.scrollIntoView({behavior:'smooth',block:'start'});}
+
+function renderWeekPlan(){
+  const days=state.weekDays||[];
+  const strip=document.getElementById('weekStrip');
+  const range=document.getElementById('weekRangeLabel');
+  if(!strip)return;
+  if(!days.length){strip.innerHTML='<div class="week-empty">برنامه هفتگی در دسترس نیست.</div>';return;}
+  range.textContent=`${faDateShort(days[0].dateIso)} تا ${faDateShort(days[days.length-1].dateIso)}`;
+  strip.innerHTML=days.map(day=>{
+    const sum=day.summary||{};
+    const unavailable=!!(day.isUnavailable||day.dayStatus||day.leave);
+    const label=dayStatusLabelClient(day);
+    let stateText=day.isToday?'امروز':day.isFuture?'🔒 فقط مشاهده':'گذشته';
+    let main=unavailable?label:`${sum.plannedCount||0} بازدید`;
+    let sub='';
+    if(unavailable){
+      const ref=day.dayStatus?.relatedStoreName||day.leave?.relatedStoreName||day.dayStatus?.relatedStoreCode||day.leave?.relatedStoreCode||'';
+      sub=ref||'بدون Route عملیاتی';
+    }else if(day.isFuture){sub='برنامه آینده · غیرقابل اجرا';}
+    else if(day.isToday){sub=`${sum.completedPlanned||0} تکمیل · ${sum.remaining||0} باقی`;}
+    else{sub=`${sum.completedPlanned||0} از ${sum.plannedCount||0} تکمیل`+(sum.unplannedCompleted?` · ${sum.unplannedCompleted} خارج برنامه`:'');}
+    return `<button class="week-day-card ${day.isToday?'today':''} ${day.isPast?'past':''} ${day.isFuture?'future':''} ${unavailable?'unavailable':''} ${state.selectedWeekIso===day.dateIso?'selected':''}" onclick="selectWeekDay('${esc(day.dateIso)}')"><div class="week-day-top"><strong>${esc(faWeekday(day.dateIso))}</strong><span>${esc(faDateShort(day.dateIso))}</span></div><div class="week-day-state">${stateText}</div><div class="week-day-main">${esc(main||'—')}</div><div class="week-day-sub">${esc(sub)}</div></button>`;
+  }).join('');
+  renderWeekPreview();
+}
+
+function selectWeekDay(dateIso){
+  state.selectedWeekIso=dateIso;
+  const day=(state.weekDays||[]).find(d=>d.dateIso===dateIso);
+  renderWeekPlan();
+  if(day?.isToday){closeWeekPreview();document.getElementById('todayRoutePanel')?.scrollIntoView({behavior:'smooth',block:'start'});}
+}
+function closeWeekPreview(){document.getElementById('weekPreview')?.classList.add('hidden');}
+function weekItemStatusLabel(item,day){
+  if(day?.isFuture)return 'برنامه‌ریزی‌شده';
+  const s=String(item?.uiStatus||'').toUpperCase();
+  if(s==='COMPLETED')return 'تکمیل‌شده';
+  if(s==='IN_PROGRESS')return 'در حال انجام';
+  if(s==='WAITING_APPROVAL')return 'در انتظار تأیید GPS';
+  if(s==='WAITING_CORRECTION')return 'در انتظار اصلاح لوکیشن';
+  return day?.isPast?'انجام‌نشده':'در انتظار';
+}
+function renderWeekPreview(){
+  const box=document.getElementById('weekPreview');if(!box)return;
+  const day=(state.weekDays||[]).find(d=>d.dateIso===state.selectedWeekIso);
+  if(!day||day.isToday){box.classList.add('hidden');return;}
+  box.classList.remove('hidden');
+  document.getElementById('weekPreviewMode').textContent=day.isFuture?'🔒 فقط مشاهده · برنامه آینده':'فقط مشاهده · سابقه برنامه';
+  document.getElementById('weekPreviewTitle').textContent=`${faWeekday(day.dateIso)} · ${faDate(day.dateIso)}`;
+  const sum=day.summary||{};
+  const unavailable=!!(day.isUnavailable||day.dayStatus||day.leave);
+  document.getElementById('weekPreviewSub').textContent=unavailable
+    ? `${dayStatusLabelClient(day)} · این روز Route عملیاتی ندارد.`
+    : `${sum.plannedCount||0} بازدید برنامه‌ریزی‌شده`+(day.isPast?` · ${sum.completedPlanned||0} تکمیل‌شده`:' · شروع بازدید برای این روز غیرفعال است.');
+  const list=document.getElementById('weekPreviewList');
+  if(unavailable){
+    const st=day.dayStatus||day.leave||{};
+    const ref=st.relatedStoreName||st.relatedStoreCode||'';
+    list.innerHTML=`<div class="week-status-card"><strong>${esc(dayStatusLabelClient(day)||'وضعیت غیرعملیاتی')}</strong><span>${esc(ref||st.note||'برای این روز بازدید عادی برنامه‌ریزی نمی‌شود.')}</span></div>`;
+    return;
+  }
+  const items=day.items||[];
+  if(!items.length){list.innerHTML='<div class="week-empty">برای این روز Route ثبت نشده است.</div>';return;}
+  list.innerHTML=items.map((x,i)=>`<div class="week-preview-item"><div class="week-preview-seq">${i+1}</div><div class="week-preview-info"><strong>${esc(x.storeName||x.storeCode)}</strong><span>کد ${esc(x.storeCode)}${x.distanceFromPreviousM?` · ${esc(mText(x.distanceFromPreviousM))} از قبلی`:''}</span></div><span class="week-preview-status ${String(x.uiStatus||'').toLowerCase()}">${esc(weekItemStatusLabel(x,day))}</span></div>`).join('')+(sum.unplannedCompleted?`<div class="week-unplanned-note">${sum.unplannedCompleted} بازدید خارج از برنامه نیز در این روز تکمیل شده است.</div>`:'');
 }
 
 function renderActive(){
@@ -1310,6 +1473,7 @@ function statusAction(item){
 
 function renderRoute(){
   const list=document.getElementById('routeList'),items=state.route.items||[];
+  if(state.data?.onUnavailable){const label=dayStatusLabelClient({dayStatus:state.data.dayStatus})||'وضعیت غیرعملیاتی';list.innerHTML=`<div class="empty today-unavailable-empty"><strong>${esc(label)}</strong><span>برای امروز وضعیت غیرعملیاتی ثبت شده و شروع بازدید امکان‌پذیر نیست.</span></div>`;return;}
   if(!items.length){list.innerHTML=`<div class="empty"><strong>برای امروز Route ثبت نشده است</strong><span>در صورت نیاز می‌توانی بازدید خارج از برنامه ثبت کنی.</span></div>`;return;}
   list.innerHTML=items.map((x,i)=>{
     const cls=x.uiStatus==='COMPLETED'?'completed':x.uiStatus==='IN_PROGRESS'?'inprogress':(x.uiStatus==='WAITING_APPROVAL'||x.uiStatus==='WAITING_CORRECTION')?'pending':'';
@@ -2013,21 +2177,28 @@ function highlightMissingQuestions(){
 }
 
 async function finishChecklist(){
-  if(state.checklistData?.readOnly)return;
+  if(state.checklistData?.readOnly||state.checklistSaving)return;
   const p=checklistProgressClient();
   if(p.remainingRequired>0){highlightMissingQuestions();toast(`${p.remainingRequired} سؤال هنوز بدون پاسخ است.`,'error');return;}
   if(!confirm('چک‌لیست نهایی شود و این بازدید پایان پیدا کند؟ پس از ثبت نهایی امکان ویرایش وجود ندارد.'))return;
+  state.checklistSaving=true;
+  const finishBtn=document.getElementById('finishChecklistBtn'),draftBtn=document.getElementById('draftBtn'),topDraftBtn=document.getElementById('topDraftBtn');
+  if(finishBtn){finishBtn.disabled=true;finishBtn.dataset.oldText=finishBtn.textContent;finishBtn.textContent='در حال ثبت نهایی…';}
+  if(draftBtn)draftBtn.disabled=true;if(topDraftBtn)topDraftBtn.disabled=true;
   setLoading(true,'در حال ثبت نهایی و پایان بازدید...');
   try{
     const res=await DMAuth.apiPost('completeChecklist',{visitId:state.checklistVisitId,answersJson:JSON.stringify(state.checklistAnswers||{}),visitNotes:state.checklistNotes||''},50000);
     if(!res.success){if(res.code==='CHECKLIST_INCOMPLETE'){highlightMissingQuestions();}throw new Error(res.message||'ثبت نهایی ناموفق بود.');}
     clearLocalChecklistDraft(state.checklistVisitId);state.checklistDirty=false;state.checklistNotes='';
-    document.getElementById('checklistMain').innerHTML=`<div class="checklist-complete-box"><div class="complete-icon">✓</div><h3>بازدید با موفقیت تکمیل شد</h3><p>چک‌لیست ثبت شد، زمان پایان بازدید ذخیره شد و وضعیت این فروشگاه در Route امروز به «تکمیل شده» تغییر کرد.</p><button class="btn primary" onclick="closeChecklist();reloadData()">بازگشت به برنامه امروز</button></div>`;
+    document.getElementById('checklistMain').innerHTML=`<div class="checklist-complete-box"><div class="complete-icon">✓</div><h3>بازدید با موفقیت تکمیل شد</h3><p>${res.alreadyCompleted?'این بازدید قبلاً با موفقیت در سرور ثبت شده بود؛ وضعیت صفحه همگام‌سازی شد.':'چک‌لیست ثبت شد، زمان پایان بازدید ذخیره شد و وضعیت این فروشگاه در Route امروز به «تکمیل شده» تغییر کرد.'}</p><button class="btn primary" onclick="closeChecklist();reloadData()">بازگشت به برنامه امروز</button></div>`;
     document.getElementById('checklistSectionNav').innerHTML='';document.getElementById('checklistBottomInfo').textContent=`مدت بازدید: ${res.durationMinutes||0} دقیقه`;
-    document.getElementById('finishChecklistBtn').disabled=true;document.getElementById('draftBtn').disabled=true;document.getElementById('topDraftBtn').disabled=true;setChecklistSaveStatus('ثبت نهایی انجام شد.','saved');
+    if(finishBtn)finishBtn.disabled=true;if(draftBtn)draftBtn.disabled=true;if(topDraftBtn)topDraftBtn.disabled=true;setChecklistSaveStatus('ثبت نهایی انجام شد.','saved');
     toast(res.message||'بازدید تکمیل شد.','success');
-  }catch(e){toast(e.message||'خطا در ثبت نهایی چک‌لیست','error');}
-  finally{setLoading(false);}
+  }catch(e){
+    if(finishBtn){finishBtn.disabled=false;finishBtn.textContent=finishBtn.dataset.oldText||'ثبت نهایی و پایان بازدید';}
+    if(draftBtn)draftBtn.disabled=false;if(topDraftBtn)topDraftBtn.disabled=false;
+    toast(e.message||'خطا در ثبت نهایی چک‌لیست','error');
+  }finally{state.checklistSaving=false;setLoading(false);}
 }
 
 function scrollChecklistSection(id,btn){
@@ -2037,6 +2208,7 @@ function scrollChecklistSection(id,btn){
 
 /* ===== UNPLANNED ===== */
 function openUnplannedModal(){
+  if(state.data?.onUnavailable){toast('برای امروز وضعیت غیرعملیاتی ثبت شده و شروع بازدید امکان‌پذیر نیست.','error');return;}
   if(state.data.openVisit){toast('ابتدا بازدید باز فعلی را تعیین تکلیف کنید.','error');return;}
   document.getElementById('unplannedSearch').value='';renderUnplannedStores();document.getElementById('unplannedModal').classList.remove('hidden');
 }
